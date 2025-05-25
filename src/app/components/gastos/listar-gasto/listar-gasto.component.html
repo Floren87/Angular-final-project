@@ -1,0 +1,28 @@
+<h4 class="text-center">Listado de Gastos</h4>
+<hr>
+
+<div class="row" style="margin-top: 50px;">
+    <div class="col-lg-6">
+        <div class="alert alert-success sizeAlert">
+            Presupuesto: <strong>€{{presupuesto}}</strong>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="sizeAlert" [ngClass]="aplicarColorRestante()">
+            Restante: <strong>€{{restante}}</strong>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item" *ngFor="let gasto of listaGastos">
+                <strong>{{gasto.nombre}}</strong>
+                 <strong>{{gasto.fecha}}</strong>
+                <span class="badge rounded-pill bg-secondary">€{{gasto.cantidad}}</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<button class="btn btn-success btn-lg btn-block mt-4" (click)="verEstadisticas()">Ver estadisticas</button>

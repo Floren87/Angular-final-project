@@ -1,0 +1,10 @@
+{
+"gastos": [
+  { "id": 1, "descripcion": "Supermercado", "monto": 150, "categoria": "Alimentos", "fecha": "2025-01-15" },
+  { "id": 2, "descripcion": "Transporte", "monto": 40, "categoria": "Movilidad", "fecha": "2025-02-10" },
+  { "id": 3, "descripcion": "Ropa", "monto": 80, "categoria": "Vestimenta", "fecha": "2025-01-22" },
+  { "id": 4, "descripcion": "Restaurante", "monto": 60, "categoria": "Comida", "fecha": "2025-03-05" }
+]
+}
+
+

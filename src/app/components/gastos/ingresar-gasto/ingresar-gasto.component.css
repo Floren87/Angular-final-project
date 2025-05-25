@@ -1,0 +1,14 @@
+input {
+    border: solid 1px orangered;
+}
+
+button {
+    width:100%;
+    background-color: blue;
+    
+}
+
+label {
+    font-weight: 650;
+    font-size: 1.2rem;
+}

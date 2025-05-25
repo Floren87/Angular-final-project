@@ -1,0 +1,9 @@
+input {
+    text-align: center;
+    border: solid 1px blue;
+}
+
+button {
+    width:100%;
+    background-color: blue;
+}

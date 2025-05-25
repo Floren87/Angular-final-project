@@ -1,0 +1,21 @@
+.sizeAlert {
+    font-size: 1.2rem;
+}
+.badge {
+    font-size: 1rem;
+}
+
+ul li {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+button {
+    width:100%;
+    background-color: green;
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
