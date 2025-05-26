@@ -6,8 +6,8 @@ import { EstadisticasComponent } from './components/estadisticas/estadisticas.co
 export const routes: Routes = [
     
     {path: '', redirectTo: '/ingresar-presupuesto', pathMatch: 'full'},
-    {path:'ingresar-presupuesto', component: IngresarPresupuestoComponent },
-    {path:'estadisticas', component:EstadisticasComponent},
-    {path:'gastos', component: GastosComponent },
+    {path:'ingresar-presupuesto', component: IngresarPresupuestoComponent},
+    {path:'gastos', component: GastosComponent},
+    {path:'estadisticas', component: EstadisticasComponent},
     {path: '**', redirectTo: '/ingresar-presupuesto', pathMatch: 'full'}
 ];

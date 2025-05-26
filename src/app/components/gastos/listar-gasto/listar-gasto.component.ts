@@ -11,10 +11,10 @@ import { Router } from '@angular/router';
   styleUrl: './listar-gasto.component.css'
 })
 export class ListarGastoComponent implements OnInit, OnDestroy{
+  router = inject(Router);
  verEstadisticas() {
   this.router.navigate(['/estadisticas'])
 }
-router = inject(Router);
 
   subscription: Subscription;
   presupuestoService = inject(PresupuestoService);

@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component,  OnInit } from '@angular/core';
 import { IGasto } from '../../interfaces/interface';
 // import { HttpClient } from '@angular/common/http';
 import { GastoService } from '../../services/gasto.service';
@@ -7,7 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-estadisticas',
-  imports: [NgFor, ReactiveFormsModule, FormsModule , CommonModule],
+  imports: [ ReactiveFormsModule, FormsModule , CommonModule],
   templateUrl: './estadisticas.component.html',
   styleUrl: './estadisticas.component.css'
 })
